@@ -1,6 +1,6 @@
-let enemy;//we are creating a global object.
+let Enemy;//we are creating a global object.
 
-function enemy(enemyType,health,mana,strength,agility,speed){
+function Enemy(enemyType,health,mana,strength,agility,speed){
     this.enemyType = enemyType;
     this.health  = health;
     this.mana = mana;
